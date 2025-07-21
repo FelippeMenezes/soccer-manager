@@ -1,2 +1,18 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+
+
+   .page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flash-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1051;
+    width: auto;
+    min-width: 300px;
+  }
