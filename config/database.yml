@@ -82,3 +82,7 @@ production:
   database: soccer_manager_production
   username: soccer_manager
   password: <%= ENV["SOCCER_MANAGER_DATABASE_PASSWORD"] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  url: <%= ENV["DATABASE_URL"] %>
