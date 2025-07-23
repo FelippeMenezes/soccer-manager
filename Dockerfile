@@ -47,7 +47,7 @@ COPY . .
 RUN bundle exec bootsnap precompile app/ lib/
 
 # Executa o seu script para criar o application.css antes do passo de precompilação do Rails.
-RUN yarn build:css
+#RUN yarn build:css
 
 # Precompiling assets for production without requiring secret RAILS_MASTER_KEY
 RUN SECRET_KEY_BASE_DUMMY=1 ./bin/rails assets:precompile
