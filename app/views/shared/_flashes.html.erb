@@ -1,16 +1,16 @@
 <%# app/views/shared/_flashes.html.erb %>
 <div class="flash-container">
   <% if notice.present? %>
-    <div class="flash-message flash-message-success alert alert-dismissible fade show" role="alert">
+    <div class="flash-message flash-message-success alert alert-dismissible fade show clickable-alert" role="alert" data-bs-dismiss="alert">
       <%= notice %>
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <button type="button" class="btn-close" aria-label="Close"></button>
     </div>
   <% end %>
 
   <% if alert.present? %>
-    <div class="flash-message flash-message-danger alert alert-dismissible fade show" role="alert">
+    <div class="flash-message flash-message-danger alert alert-dismissible fade show clickable-alert" role="alert" data-bs-dismiss="alert">
       <%= alert %>
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      <button type="button" class="btn-close" aria-label="Close"></button>
     </div>
   <% end %>
 </div>
