@@ -1,3 +1,16 @@
 .navbar {
     background-color: #293029;
 }
+
+.dropdown-menu {
+    background-color: #293029;
+    border-color: aliceblue;
+}
+
+.dropdown-item {
+    color: aliceblue;
+}
+
+.dropdown-divider {
+    border-color: aliceblue;
+}
