@@ -1,7 +1,7 @@
 /* /app/assets/stylesheets/home.css */
 
 .home-background {
-  background-image: url('/assets/home.jpeg');
+  background-image: image-url('home.jpg');
 
   background-size: cover;
   background-position: center center;
@@ -16,7 +16,7 @@
 }
 
 .home-content {
-  padding-top: 400px;
+  padding-top: 250px;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);

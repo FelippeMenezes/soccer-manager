@@ -3,6 +3,11 @@
  *= require_tree .
  */
 
+@import "home";
+@import "navbar";
+@import "flashes";
+@import "footer";
+
 body {
   background-color: #3b8647;
   color: #e9ecf0;
